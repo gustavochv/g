@@ -131,4 +131,33 @@ body{
         font-weight: 700;
         padding: 1em 0 0.5em 0;
         }
-           
+        
+        .swipe-slide img {
+            width: 50%;
+        }
+         .card-descricao{
+         display: flex;
+        justify-content: space-between;
+        margin-bottom: 0,5em;
+        font-size: large;
+        }
+
+    .card-botoes{
+    display: flex;
+    justify-content: space-between;
+}
+.botoes{
+display: flex;
+}
+.card{
+background: var(--branco);
+box-shadow: 10px 20px 20px rgb(14, 4, 4);
+border-radius: 10px;
+margin: 1em;
+padding: 1em;
+}
+.descricao-titulo{
+    color: var(--laranja);
+    font-weight: 700;
+text-align: center;
+}
